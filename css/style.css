@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+a:focus{
+    outline:none;
+}
+#MyCarousel{
+    width:auto;
+    padding:0px;
+    margin-top:51px;
+}
+.navbar{
+    margin:0;
+}
+.carousel-inner .item img {
+    margin:0 auto;
+}
+// .carousel-control{
+//     font-size:100px;
+// }
+
