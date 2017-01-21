@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>表单与图片</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+<!-- 模态声明-->
+<div class="modal fade" id="myModal">
+    <!-- 窗口声明 -->
+    <div class="modal-dialog">
+        <!-- 内容声明 -->
+        <div class="modal-content">
+            <!-- 头部 -->
+            <div class="modal-header">
+              <button class="close btn btn-lg" data-dismiss="modal"><span>&times;</span>
+              </button>
+                <h4 class="modal-title">用户登陆</h4>
+            </div>
+            <!-- 主体 -->
+            <div class="modal-body">
+                <form action="模态框_submit" method="get" accept-charset="utf-8">
+                    <div class="form-group" >
+                        <label>电子邮件</label>
+                        <input type="text" name="" placeholder="请输入账号" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>密码</label>
+                        <input type="password" name="" placeholder="请输入密码" class="form-control">
+                    </div>
+                </form>
+            </div>
+            <!-- 注脚 -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default">注册</button>
+                <button type="button" class="btn btn-primary" >登陆</button>
+            </div>
+        </div>
+    </div>
+</div>
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="margin:100px">
+    点我登陆
+</button>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
